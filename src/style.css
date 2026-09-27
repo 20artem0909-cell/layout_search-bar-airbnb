@@ -49,10 +49,15 @@ body {
 }
 
 .search-bar__icon {
+  display: block;
   flex: 0 0 auto;
   width: 19px;
   height: 19px;
   margin-left: 25px;
+  background-image: url('images/Search.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 .search-bar--small .search-bar__icon {
